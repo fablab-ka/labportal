@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.camera-view {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20%;
+  opacity: 0.8;
+}
+
+.remote-view video {
+  width: 100%;
+}
+
+.control-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.1);
+  width: 20%;
+  padding: 10px;
+  opacity: 0.5;
+}
+.control-panel button {
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  background-color: #333;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid #999;
+}
+.control-panel button:hover {
+  background-color: #666;
+}
+.control-panel button:active {
+  background-color: #999;
+}
